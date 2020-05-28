@@ -2,8 +2,8 @@ import React from "react";
 
 const Quote = () => {
   return (
-    <div className="container mx-auto ">
-      <div className="px-5 py-32 font-mono font-semibold text-gray-600  sm:text-4xl text-2xl text-center">
+    <div className="py-16 px-2 container mx-auto">
+      <div className="font-mono font-semibold text-gray-600 sm:text-4xl text-2xl text-center">
         <p>
           “To become really good at anything, you have to practice and repeat,
           practice and repeat, until the technique becomes intuitive.”{" "}

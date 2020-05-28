@@ -1,4 +1,8 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { ScrollToTop } from "../../../utils/WindowUtils";
+import MainContent from "./section/MainContent";
+import Gallery from "./section/Gallery";
+import NextPage from "./section/NextPage";
 
 /**
  * Navbar with img bg
@@ -9,19 +13,25 @@ import React from "react";
  *
  */
 const About = () => {
-  const quote = (
-    <div className="bg-blue p-10">
-      <section className="mx-auto font-extrabold text-teal-100 text-4xl">
-        <p>
-          “To become really good at anything, you have to practice and repeat,
-          practice and repeat, until the technique becomes intuitive.”
-        </p>
-        <span>- Paulo Coelho</span>
+  useEffect(() => {
+    ScrollToTop();
+  }, []);
+
+  return (
+    <div>
+      <section className="">
+        <MainContent />
+      </section>
+
+      <section className="min-h-screen bg-gray-100">
+        <Gallery />
+      </section>
+
+      <section className="">
+        <NextPage />
       </section>
     </div>
   );
-
-  return <div>{quote}</div>;
 };
 
 export default About;

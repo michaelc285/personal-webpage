@@ -1,8 +1,12 @@
-import React from "react";
-import MainContent from "./content/MainContent";
-import SubContent from "./content/SubContent";
+import React, { useEffect } from "react";
+import { ScrollToTop } from "../../../utils/WindowUtils";
+import MainContent from "./section/MainContent";
+import SubContent from "./section/SubContent";
 
 const Resume = () => {
+  useEffect(() => {
+    ScrollToTop();
+  }, []);
   return (
     <div className="w-full">
       <div className="bg-gray-100 min-w-full">

@@ -45,7 +45,7 @@ const MainContent = () => {
           <div className=" col-span-3 sm:col-span-2">
             <div className="mt-5 text-base font-normal">
               Chinese ( Cantonese, Mandarin ) , English , Japanese{" "}
-              <span className="text-gray-500">( Learning )</span>
+              <span className="text-gray-500">( Limited )</span>
             </div>
           </div>
         </div>
