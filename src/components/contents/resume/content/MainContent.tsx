@@ -1,13 +1,15 @@
 import React from "react";
 
-const Resume = () => {
+const MainContent = () => {
   return (
     <div className="container mx-auto ">
-      <div className="w-full px-12 py-12 flex flex-col items-center">
+      <div className="px-12 sm:px-6  py-12 flex flex-col items-center">
         <div className="mb-10 grid grid-cols-3 w-full">
           {/* Technologies */}
-          <div className=" col-span-1 text-4xl font-thin">Technologies</div>
-          <div className=" col-span-2 ">
+          <div className=" col-span-3 sm:col-span-1 text-4xl font-thin mb-5">
+            Technologies
+          </div>
+          <div className=" col-span-3 sm:col-span-2">
             <span className="text-base uppercase font-semibold">
               Experience with
             </span>
@@ -31,14 +33,16 @@ const Resume = () => {
               <li>Tailwind CSS</li>
               <li>Material-UI</li>
               <li>Base SAS</li>
-              <li>MS Office</li>
+              <li>Machine Learning</li>
             </ul>
           </div>
         </div>
+        {/* Technologies */}
         <div className="mb-10 grid grid-cols-3 w-full">
-          {/* Technologies */}
-          <div className=" col-span-1 text-4xl font-thin">Languages</div>
-          <div className=" col-span-2 ">
+          <div className=" col-span-3 sm:col-span-1 text-4xl font-thin">
+            Languages
+          </div>
+          <div className=" col-span-3 sm:col-span-2">
             <div className="mt-5 text-base font-normal">
               Chinese ( Cantonese, Mandarin ) , English , Japanese{" "}
               <span className="text-gray-500">( Learning )</span>
@@ -47,8 +51,10 @@ const Resume = () => {
         </div>
         {/* Work Experience */}
         <div className="mb-10 grid grid-cols-3 w-full">
-          <div className=" col-span-1 text-4xl font-thin">Work Experience</div>
-          <div className=" col-span-2 ">
+          <div className=" col-span-3 sm:col-span-1 text-4xl font-thin mb-5">
+            Work Experience
+          </div>
+          <div className=" col-span-3 sm:col-span-2">
             {/* Company Info*/}
             {/* AXA */}
             <div className="text-base uppercase font-semibold">
@@ -67,10 +73,37 @@ const Resume = () => {
             </p>
           </div>
         </div>
+        {/* Activites */}
+        <div className="mb-10 grid grid-cols-3 w-full">
+          <div className=" col-span-3 sm:col-span-1 text-4xl font-thin mb-5">
+            Activites
+          </div>
+          <div className=" col-span-3 sm:col-span-2">
+            {/* Company Info*/}
+            {/* EcoSta 2019 Conference */}
+            <div className="text-xl uppercase font-semibold">
+              The 3rd International Conference on Econometrics and Statistics
+            </div>
+            <div className="text-xl font-light">
+              Poster Presentation ({" "}
+              <a
+                href="http://cmstatistics.org/EcoSta2019/BoA.php"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline"
+              >
+                Ref. EP0840
+              </a>{" "}
+              ), TW, June 2019
+            </div>
+          </div>
+        </div>
         {/* Education */}
         <div className="grid grid-cols-3 w-full">
-          <div className=" col-span-1 text-4xl font-thin">Education</div>
-          <div className=" col-span-2 ">
+          <div className=" col-span-3 sm:col-span-1 text-4xl font-thin mb-5">
+            Education
+          </div>
+          <div className=" col-span-3 sm:col-span-2">
             {/* University */}
             <section className="mb-5">
               <span className="text-lg uppercase font-semibold">
@@ -97,4 +130,4 @@ const Resume = () => {
   );
 };
 
-export default Resume;
+export default MainContent;
