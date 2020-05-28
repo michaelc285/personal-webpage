@@ -11,8 +11,8 @@ const SubContent = () => {
           </h1>
           <p className="text-2xl sm:text-3xl mb-10">
             Thank you for your time. Now you have a basic understanding of
-            Michael Cheng. If you think I am a good fit for your business.
-            Contact Me Today.
+            Michael Cheng. If you think he is a good fit for your business.
+            Contact Michael Today.
           </p>
 
           <a

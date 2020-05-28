@@ -27,13 +27,13 @@ const Navbar = () => {
 
   return (
     <header
-      className="w-full bg-top h-screen bg-auto bg-no-repeat relative"
+      className="w-full bg-top h-screen bg-cover bg-no-repeat relative select-none"
       style={{ backgroundImage: `url(${jp2})` }}
     >
       {NavContent}
 
       <div className=" mt-40 sm:mt-48 ml-1 sm:ml-16 md:ml-36  text-white text-6xl font-extrabold absolute">
-        Michael's
+        <span className="text-red-700">M</span>ichael's
       </div>
     </header>
   );

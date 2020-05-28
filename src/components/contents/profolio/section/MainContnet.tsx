@@ -12,7 +12,7 @@ const MainContnet = () => {
       {/* Project Items' Boxes */}
       <div className="flex flex-wrap -m-4">
         {/* Project  */}
-        <div className="lg:w-1/3 sm:w-1/2 p-4 ">
+        <div className="lg:w-1/3 md:w-1/2 p-4 ">
           <div className="flex relative" style={{ height: "30rem" }}>
             {/* Cover */}
             <div className="absolute inset-0 w-full h-full flex justify-center items-center bg-gray-400 ">
@@ -40,7 +40,7 @@ const MainContnet = () => {
                 <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">
                   #J Swing
                 </span>
-                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">
+                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mt-2">
                   #MySQL
                 </span>
               </div>
@@ -68,7 +68,7 @@ const MainContnet = () => {
         </div>
         {/* Project  End */}
         {/* Project  */}
-        <div className="lg:w-1/3 sm:w-1/2 p-4">
+        <div className="lg:w-1/3 md:w-1/2 p-4">
           <div className="flex relative" style={{ height: "30rem" }}>
             {/* Cover */}
             <div className="absolute inset-0 w-full h-full flex justify-center items-center bg-blue-400">
@@ -96,7 +96,7 @@ const MainContnet = () => {
                 <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">
                   #Redux
                 </span>
-                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mt-2 lg:mt-0">
+                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mt-2 ">
                   #TypeScript
                 </span>
               </div>
@@ -125,7 +125,7 @@ const MainContnet = () => {
         {/* Project  End */}
         {/* Project  */}
 
-        <div className="lg:w-1/3 sm:w-1/2 p-4">
+        <div className="lg:w-1/3 md:w-1/2 p-4">
           <div className="flex relative" style={{ height: "30rem" }}>
             {/* Cover */}
             <div className="absolute inset-0 w-full h-full flex justify-center items-center justify-center bg-yellow-200 text-center">
@@ -136,10 +136,10 @@ const MainContnet = () => {
             {/* Under */}
             <div className="font-sans px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
               <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
-                final year project
+                Final year project / EcoSta2019 Conference Poster
               </h2>
               <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
-                Identification of pairs trading opportunities using copula-based
+                Identification of Pairs trading opportunities using copula-based
                 conditional probabilities and machine learning models
               </h1>
               <p className="leading-relaxed">
@@ -153,7 +153,7 @@ const MainContnet = () => {
                 <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">
                   #ML
                 </span>
-                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">
+                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mt-2 ">
                   #Python
                 </span>
               </div>
@@ -181,7 +181,7 @@ const MainContnet = () => {
         </div>
         {/* Project  End */}
         {/* Project  */}
-        <div className="lg:w-1/3 sm:w-1/2 p-4">
+        <div className="lg:w-1/3 md:w-1/2 p-4">
           <div className="flex relative" style={{ height: "30rem" }}>
             {/* Cover */}
             <div className="absolute inset-0 w-full h-full flex justify-center items-center bg-indigo-600">
@@ -198,8 +198,8 @@ const MainContnet = () => {
                 Blog
               </h1>
               <p className="leading-relaxed">
-                A traditional blog website. Implemented both user and admin
-                stages.
+                A traditional blog website with PHP and MySQL. Implemented both
+                user and admin stages.
               </p>
               <div className="py-2">
                 <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">
@@ -233,7 +233,7 @@ const MainContnet = () => {
         </div>
         {/* Project  End */}
         {/* Project  */}
-        <div className="lg:w-1/3 sm:w-1/2 p-4">
+        <div className="lg:w-1/3 md:w-1/2 p-4">
           <div className="flex relative" style={{ height: "30rem" }}>
             {/* Cover */}
             <div className="absolute inset-0 w-full h-full flex justify-center items-center bg-green-400">
@@ -285,7 +285,7 @@ const MainContnet = () => {
         </div>
         {/* Project  End */}
         {/* Project  */}
-        <div className="lg:w-1/3 sm:w-1/2 p-4">
+        <div className="lg:w-1/3 md:w-1/2 p-4">
           <div className="flex relative" style={{ height: "30rem" }}>
             {/* Cover */}
             <div className="absolute inset-0 w-full h-full flex justify-center items-center bg-pink-400">
