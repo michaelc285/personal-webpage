@@ -20,10 +20,10 @@ const MainContent = () => {
 
         <br />
         <p className="text-left font-light font-sans text-xl sm:text-3xl mb-5">
-          For you information, He is a big fans of cooking and Japanese culture.
-          He addicted to Japanese music, animation, video games, food and
-          traditional culture. Besides, He would also like to know more about
-          worldwide.
+          For your information, He is a big fans of cooking and Japanese
+          culture. He addicted to Japanese music, animation, video games, food
+          and traditional culture. Besides, He would also like to know more
+          about worldwide.
         </p>
         <p className="text-left font-light font-sans text-xl sm:text-3xl"></p>
       </div>
