@@ -10,7 +10,7 @@ const MainContent = () => {
         <p className="text-left font-light font-sans text-xl sm:text-3xl mb-5">
           Michael Cheng is a statistical analysis and data science graduate,
           with the aspiration to develop programs to make our life easier. He
-          love to learn different kinds of knowledge and share with others.
+          loves to learn different kinds of knowledge and share it with others.
         </p>
         <br />
         <p className="text-left font-light font-sans text-xl sm:text-3xl mb-5">
@@ -20,10 +20,10 @@ const MainContent = () => {
 
         <br />
         <p className="text-left font-light font-sans text-xl sm:text-3xl mb-5">
-          For your information, He is a big fans of cooking and Japanese
-          culture. He addicted to Japanese music, animation, video games, food
-          and traditional culture. Besides, He would also like to know more
-          about worldwide.
+          For your information, He is a big fan of cooking and Japanese culture.
+          He addicted to Japanese music, animation, video games, food, and
+          traditional culture. Besides, He would also like to know more about
+          worldwide.
         </p>
         <p className="text-left font-light font-sans text-xl sm:text-3xl"></p>
       </div>
