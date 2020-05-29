@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import { RESUME_PATH } from "../../../../path";
 
 const NextPage = () => {
   return (
@@ -12,7 +13,7 @@ const NextPage = () => {
           To know more about my abilities and skills.
         </p>
 
-        <NavLink to="/resume">
+        <NavLink to={RESUME_PATH}>
           <div className="bg-transparent hover:bg-blue-400 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
             View Résumé
           </div>

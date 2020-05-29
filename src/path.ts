@@ -1,9 +1,8 @@
 // Internal
-export const ROOT_PATH = "/";
-export const HOME_PATH = "/home";
-export const ABOUT_PATH = "/about";
-export const PROFOLIO_PATH = "/profolio";
-export const RESUME_PATH = "/resume";
+export const ROOT_PATH = "/personal-webpage/";
+export const ABOUT_PATH = "/personal-webpage/about";
+export const PROFOLIO_PATH = "/personal-webpage/profolio";
+export const RESUME_PATH = "/personal-webpage/resume";
 
 // External
 export const GITHUB_LINK = "https://github.com/michaelc285";
